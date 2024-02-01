@@ -7,6 +7,7 @@ namespace ValpasTimer.Domain.Entities
 {
     public class WorkCard
     {
-        
+        public string CardId { get; set; } = null!;
+        public string CardNumber { get; set; } 
     }
 }
