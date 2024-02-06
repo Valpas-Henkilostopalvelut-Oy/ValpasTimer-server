@@ -1,10 +1,11 @@
 namespace ValpasTimer.Domain.Enums
 {
-    public enum UserAgreementStatus
+    public enum UserTaskStatus
     {
         ACTIVE,
         INACTIVE,
-        DISABLED,
+        DONE,
         DELETED
+
     }
 }
